@@ -2,40 +2,61 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Test</title>
+        <title>Dashboard</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
 
+    <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
                     <!--adding image via <img src="link of image.png" width="number of px">-->
                 <img src="img/logo.png" width="125px" alt="logo">
                 </div>
-                <nav>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <nav>   
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">Products</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Contact</a></li>
-                        <li><a href="">Account</a></li>
+                        <li><a href="">Account</a></li> 
                     </ul>
                 </nav>
+                <img src="img/sportsbag.png" width="30px" height="30px">
             </div>
         </div>
+    
 
        <div class="row">
         <div class="col-2">
-            <h1>FitnessHub!</h1>
-            <p>Unlock your Strength!</p>
-            <a href="" class="btn">Explore now!</a>
+            <img src="img/fitnessWoman.jpg" alt="fit woman">
         </div>
         <div class="col-2">
-            <img src="img/howtogetpoints.webp" alt="jumping woman">
+            <h1>FitnessHub!</h1>
+            <p>Unlock your Strength, Transform Your Body and Ignite Your Potential!<br> Join Our Fitness Program Today! </p>
+            <a href="" class="sgnBtn">Sign up now! &#10174;</a>
+            <!--Adding either option to: explore shop or sign up-->
         </div>
+        
        </div>
+    </div>
 
+    <!--end of dashboard-->
+    <!--featured categories-->
+        <div class="categories">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+            </div>
+        </div>
     </body>
 </html>

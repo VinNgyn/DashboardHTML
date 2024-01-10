@@ -3,15 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Tektur', sans-serif;
+}
 .navbar{
     display:flex;
     align-items: center;
     padding: 20px; 
 }
+.search-bar {
+    flex: 1;
+    margin: 20px;
+}
 nav{
     flex: 1;
-    right: 0;
-    position: fixed; /* Set the navbar to fixed position */
+    text-align: right;
 }
 nav ul{
     display: inline-block;
@@ -23,12 +29,13 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color:black;
+    color: white;
 }
 p{
-    color: black;
+    color: white;
 }
 .container{
+    background: #161616;
     max-width: flex;
     margin: auto;
     padding-left: 25px;
@@ -47,17 +54,36 @@ p{
 .col-2 img{
     max-width: 100%;
     padding: 50px 0;
+    margin-left: 20px;
 }
 .col-2 h1{
-    font-size: 50px;
+    color: white;
+    font-size: 100px;
     line-height: 60px;
-    margin: 25px;
+    margin: 40px 200px;
+    text-decoration: underline;
+
 }
-.btn{
+.col-2 p{
+    margin: 30px 200px;
+    font-size: 25px;
+}
+.sgnBtn{
+    font-size: 20px;
     display: inline-block;
-    background: #ff523b;
-    color:white;
+    background: white;
+    color:black;
     padding: 8px 30px;
-    margin: 30px 0;
+    margin: 30px 200px;
     border-radius: 30px;
+    transition: background 0.5s;
+}
+.sgnBtn:hover{
+    background: gray;
+}
+.header{
+    background: radial-gradient(#161616,black);
+}
+.header .row{
+    margin-top: 70px;
 }
